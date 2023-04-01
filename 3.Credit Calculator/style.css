@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.common_df, .all_part .container .content .top_part .slide_content .all_value, .all_part .container .content .top_part .head, .all_part .container .content .top_part, .all_part .container .content, .all_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_part {
+  margin: 12rem;
+}
+.all_part .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.all_part .container .content {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.all_part .container .content .head_slide {
+  width: 75%;
+}
+.all_part .container .content .top_part {
+  width: 100%;
+}
+.all_part .container .content .top_part .head {
+  padding: 10px 16px;
+}
+.all_part .container .content .top_part .head .text h4 {
+  color: #666666;
+  font-size: 20px;
+}
+.all_part .container .content .top_part .head .current_value h4 {
+  font-size: 20px;
+}
+.all_part .container .content .top_part .slide_content input {
+  width: 100%;
+}
+.all_part .container .content .top_part .slide_content .all_value p {
+  color: #262626;
+  font-size: 16px;
+}
+.all_part .container .content .top .btn button {
+  border: none;
+  background-color: #3b8ae3;
+  color: #fff;
+  padding: 17px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

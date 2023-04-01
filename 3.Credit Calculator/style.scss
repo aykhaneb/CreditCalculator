@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.common_df {
+  display: flex;
+  justify-content: space-between;
+}
+.all_part {
+  @extend .common_df;
+  margin: 12rem;
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    .content {
+      @extend .common_df;
+      margin-bottom: 30px;
+      width: 100%;
+      .head_slide{
+        width: 75%
+    }
+      .top_part {
+        width: 100%;
+        
+        @extend .common_df;
+        .head {
+          @extend .common_df;
+          padding: 10px 16px;
+          .text {
+            h4 {
+              color: #666666;
+              font-size: 20px;
+            }
+          }
+          .current_value {
+            h4 {
+              font-size: 20px;
+            }
+          }
+        }
+        .slide_content {
+          input {
+            width: 100%;
+          }
+          .all_value {
+            @extend .common_df;
+            p {
+              color: #262626;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .top{
+        .btn{
+            button{
+                border: none;
+                background-color: #3b8ae3;
+                color: #fff;
+                padding: 17px 25px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+      }
+    }
+  }
+}
